@@ -16,7 +16,7 @@ from datetime import datetime
 
  随机一言: {{yy.DATA}}
 
- 林夕提醒您:亲,疫情期间出门请戴好口罩哟!
+ XX提醒您:亲,疫情期间出门请戴好口罩哟!
  疫情通告更新: {{yiqing.DATA}}
 '''
 # 接收的用户
@@ -116,7 +116,7 @@ def send_message(template_id,to_user, access_token, city_name , weather, max_wd,
                 "color": get_color()
             },
             "time": {
-                "value": (datetime.today() - datetime(2017,9,1)).days,
+                "value": (datetime.today() - datetime(2022,8,23)).days,
                 "color": get_color()
             },
             "city": {
